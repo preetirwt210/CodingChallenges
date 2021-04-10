@@ -9,5 +9,8 @@ public class Main {
 
         SpeedConverter sc=new SpeedConverter();
         sc.printConversion(1.5);
+
+        MegaBytesConverter mb=new MegaBytesConverter();
+        mb.printMegaBytesAndKiloBytes(2500);
     }
 }
