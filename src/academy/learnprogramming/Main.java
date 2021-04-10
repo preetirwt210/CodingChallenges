@@ -12,5 +12,8 @@ public class Main {
 
         MegaBytesConverter mb=new MegaBytesConverter();
         mb.printMegaBytesAndKiloBytes(2500);
+
+        boolean shouldWakeUp=BarkingDog.shouldWakeUp(true,1);
+        System.out.println(shouldWakeUp);
     }
 }
