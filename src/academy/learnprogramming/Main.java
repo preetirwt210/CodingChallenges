@@ -18,5 +18,8 @@ public class Main {
 
         boolean isLeapYear=LeapYear.isLeapYear(-1600);
         System.out.println(isLeapYear);
+
+        boolean e=EqualSumChecker.hasEqualSum(1,1,2);
+        System.out.println(e);
     }
 }
