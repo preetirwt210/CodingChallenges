@@ -15,5 +15,8 @@ public class Main {
 
         boolean shouldWakeUp=BarkingDog.shouldWakeUp(true,1);
         System.out.println(shouldWakeUp);
+
+        boolean isLeapYear=LeapYear.isLeapYear(-1600);
+        System.out.println(isLeapYear);
     }
 }
