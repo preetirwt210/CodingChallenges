@@ -6,5 +6,8 @@ public class Main {
 	// write your code here
        PracticeQuestion PQ=new  PracticeQuestion();
         PQ.checkNumber(5);
+
+        SpeedConverter sc=new SpeedConverter();
+        sc.printConversion(1.5);
     }
 }
