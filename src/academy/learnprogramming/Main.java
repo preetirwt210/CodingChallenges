@@ -21,5 +21,10 @@ public class Main {
 
         boolean e=EqualSumChecker.hasEqualSum(1,1,2);
         System.out.println(e);
+
+        boolean t=TeenNumberChecker.hasTeen(9,99,19);
+        System.out.println(t);
+        boolean s=TeenNumberChecker.isTeen(9);
+        System.out.println(s);
     }
 }
