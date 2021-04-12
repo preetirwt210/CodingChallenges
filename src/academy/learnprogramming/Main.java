@@ -26,5 +26,8 @@ public class Main {
         System.out.println(t);
         boolean s=TeenNumberChecker.isTeen(9);
         System.out.println(s);
+
+       String sm=SecondsAndMinutes.getDurationString(65,55);
+       System.out.println(sm);
     }
 }
