@@ -32,5 +32,7 @@ public class Main {
         System.out.println(AreaCalculator.area(5.0));
 
         System.out.println(AreaCalculator.area(5.0, 4.0));
+
+     MinutesToYearsDaysCalculator.printYearsAndDays(561600);
     }
 }
