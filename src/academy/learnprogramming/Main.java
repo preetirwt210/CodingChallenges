@@ -36,5 +36,7 @@ public class Main {
      MinutesToYearsDaysCalculator.printYearsAndDays(561600);
 
      IntEqualityPrinter.printEqual(1,2,3);
+
+     System.out.println(PlayingCat.isCatPlaying(false,35));
     }
 }
