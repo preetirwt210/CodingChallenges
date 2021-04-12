@@ -27,7 +27,10 @@ public class Main {
         boolean s=TeenNumberChecker.isTeen(9);
         System.out.println(s);
 
-       String sm=SecondsAndMinutes.getDurationString(65,55);
-       System.out.println(sm);
+       System.out.println(SecondsAndMinutes.getDurationString(65,55));
+
+        System.out.println(AreaCalculator.area(5.0));
+
+        System.out.println(AreaCalculator.area(5.0, 4.0));
     }
 }
