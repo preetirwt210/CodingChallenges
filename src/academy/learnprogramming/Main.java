@@ -40,5 +40,6 @@ public class Main {
      System.out.println(PlayingCat.isCatPlaying(false,35));
 
      DayOfTheWeek.printDayOfTheWeek(2);
+     NumberInWord.printNumberInWord(1);
     }
 }
