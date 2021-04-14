@@ -39,6 +39,6 @@ public class Main {
 
      System.out.println(PlayingCat.isCatPlaying(false,35));
 
-     DayOfTheWeek.printDayOfTheWeek(-1);
+     DayOfTheWeek.printDayOfTheWeek(2);
     }
 }
