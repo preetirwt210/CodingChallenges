@@ -38,5 +38,7 @@ public class Main {
      IntEqualityPrinter.printEqual(1,2,3);
 
      System.out.println(PlayingCat.isCatPlaying(false,35));
+
+     DayOfTheWeek.printDayOfTheWeek(-1);
     }
 }
