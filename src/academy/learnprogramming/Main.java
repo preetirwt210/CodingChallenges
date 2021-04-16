@@ -49,5 +49,7 @@ public class Main {
      fw1=new Fourwheeler("RJ325674","black","Securely seated.The reviving engine.Start of the ignition.A rhythmic blinker.Click of the door open", "SUV","medium");
      tw1.display();
      fw1.display();
+
+     System.out.println(NumberOfDaysInMonth.getDaysInMonth(12,10000));
     }
 }
