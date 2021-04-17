@@ -51,5 +51,7 @@ public class Main {
      fw1.display();
 
      System.out.println(NumberOfDaysInMonth.getDaysInMonth(12,10000));
+
+     SumOdd.sumOdd();
     }
 }
