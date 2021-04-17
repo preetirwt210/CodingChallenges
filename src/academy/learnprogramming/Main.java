@@ -53,5 +53,6 @@ public class Main {
      System.out.println(NumberOfDaysInMonth.getDaysInMonth(12,10000));
 
      SumOdd.sumOdd();
+     System.out.println(SumOddRange.sumOdd(1,100));
     }
 }
