@@ -55,5 +55,7 @@ public class Main {
      SumOdd.sumOdd();
      System.out.println(SumOddRange.sumOdd(1,100));
      System.out.println(sumDigits.sumDigits(-1));
+
+     System.out.println(NumberPalindrome.isPalindrome(-222));
     }
 }
