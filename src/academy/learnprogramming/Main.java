@@ -57,5 +57,6 @@ public class Main {
      System.out.println(sumDigits.sumDigits(-1));
 
      System.out.println(NumberPalindrome.isPalindrome(-222));
+     System.out.println(FirstLastDigitSum.sumFirstAndLast(225));
     }
 }
