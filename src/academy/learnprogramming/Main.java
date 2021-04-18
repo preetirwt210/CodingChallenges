@@ -59,5 +59,6 @@ public class Main {
      System.out.println(NumberPalindrome.isPalindrome(-222));
      System.out.println(FirstLastDigitSum.sumFirstAndLast(225));
      System.out.println("Sum of Even digit Number: " +EvenDigitSum.getEvenDigitSum(22));
+     System.out.println("Shared Digit : " + SharedDigit.hasSharedDigit(89,92));
     }
 }
