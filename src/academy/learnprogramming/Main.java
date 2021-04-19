@@ -61,5 +61,6 @@ public class Main {
      System.out.println("Sum of Even digit Number: " +EvenDigitSum.getEvenDigitSum(22));
      System.out.println("Shared Digit : " + SharedDigit.hasSharedDigit(89,92));
         System.out.println("LastDigit Checker : " + LastDigitChecker.hasSameLastDigit(9,99,999));
+        System.out.println("GCD is : " + GreatestCommonDivisor.getGreatestCommonDivisor(25,15));
     }
 }
