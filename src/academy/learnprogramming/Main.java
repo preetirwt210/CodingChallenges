@@ -63,5 +63,6 @@ public class Main {
         System.out.println("LastDigit Checker : " + LastDigitChecker.hasSameLastDigit(9,99,999));
         System.out.println("GCD is : " + GreatestCommonDivisor.getGreatestCommonDivisor(25,15));
         FactorPrinter.printFactors(32);
+        System.out.println(PerfectNumber.isPerfectNumber(28));
     }
 }
