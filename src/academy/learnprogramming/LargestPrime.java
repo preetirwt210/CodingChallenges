@@ -6,7 +6,7 @@ public class LargestPrime {
           return -1;
       }
       else{
-          
+
       }
 
  }
