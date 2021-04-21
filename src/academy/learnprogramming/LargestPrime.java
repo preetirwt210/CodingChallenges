@@ -7,7 +7,7 @@ public class LargestPrime {
       }
       else{
 
-      }
+      }return -1;
 
  }
  public static boolean isPrime(int num){

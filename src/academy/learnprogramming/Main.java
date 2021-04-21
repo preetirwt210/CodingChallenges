@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-      PracticeQuestion PQ=new  PracticeQuestion();
+     /* PracticeQuestion PQ=new  PracticeQuestion();
         PQ.checkNumber(5);
 
         SpeedConverter sc=new SpeedConverter();
@@ -64,6 +64,7 @@ public class Main {
         System.out.println("GCD is : " + GreatestCommonDivisor.getGreatestCommonDivisor(25,15));
         FactorPrinter.printFactors(32);
         System.out.println(PerfectNumber.isPerfectNumber(28));
-        System.out.println(FlourPacker.canPack(2,2,11));
+        System.out.println(FlourPacker.canPack(2,2,11)); */
+    MinAndMax.minAndMaxInput();
     }
 }
