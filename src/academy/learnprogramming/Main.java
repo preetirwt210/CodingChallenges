@@ -67,7 +67,8 @@ public class Main {
         System.out.println(FlourPacker.canPack(2,2,11));
     MinAndMax.minAndMaxInput();
      InputCalculator.inputThenPrintSumAndAverage();
-  System.out.println(PaintJob.getBucketCount(3.4,2.1,1.5,2));*/
-System.out.println(LargestPrime.getLargestPrime(21));
+  System.out.println(PaintJob.getBucketCount(3.4,2.1,1.5,2));
+System.out.println(LargestPrime.getLargestPrime(21));*/
+    DiagonalStar.printSquareStar(5);
     }
 }
