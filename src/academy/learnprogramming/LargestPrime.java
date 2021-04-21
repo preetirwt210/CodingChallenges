@@ -2,19 +2,20 @@ package academy.learnprogramming;
 
 public class LargestPrime {
  public static int getLargestPrime(int number){
-      if((number<0) && (!isPrime(number))){
+      if(number<2){
           return -1;
       }
       else{
 
-      }return -1;
+          for (int i = 2; i < number; i++) {
+              if (number % i == 0) {
+                  number /= i;
+                  i--;
+              }
+          }
+          return number;
+      }
+      }
+ }
 
- }
- public static boolean isPrime(int num){
-     while(num>1){
-         if(num%2!=0){
-            return true;
-         }
-     }return false;
- }
-}
+
