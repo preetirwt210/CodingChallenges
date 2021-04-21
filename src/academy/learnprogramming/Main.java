@@ -65,8 +65,8 @@ public class Main {
         FactorPrinter.printFactors(32);
         System.out.println(PerfectNumber.isPerfectNumber(28));
         System.out.println(FlourPacker.canPack(2,2,11));
-    MinAndMax.minAndMaxInput();*/
-     InputCalculator.inputThenPrintSumAndAverage();
-
+    MinAndMax.minAndMaxInput();
+     InputCalculator.inputThenPrintSumAndAverage();*/
+  System.out.println(PaintJob.getBucketCount(3.4,2.1,1.5,2));
     }
 }
