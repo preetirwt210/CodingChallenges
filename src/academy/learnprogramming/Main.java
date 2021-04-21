@@ -64,7 +64,9 @@ public class Main {
         System.out.println("GCD is : " + GreatestCommonDivisor.getGreatestCommonDivisor(25,15));
         FactorPrinter.printFactors(32);
         System.out.println(PerfectNumber.isPerfectNumber(28));
-        System.out.println(FlourPacker.canPack(2,2,11)); */
-    MinAndMax.minAndMaxInput();
+        System.out.println(FlourPacker.canPack(2,2,11));
+    MinAndMax.minAndMaxInput();*/
+     InputCalculator.inputThenPrintSumAndAverage();
+
     }
 }
